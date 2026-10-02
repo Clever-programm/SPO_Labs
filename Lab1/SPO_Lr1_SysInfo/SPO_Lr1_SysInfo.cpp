@@ -1,18 +1,15 @@
-﻿// Лабораторная работа № 1. Функции получения системной информации.
-// Задание 3, вариант 1: имя пользователя, имя компьютера.
-
-#include <windows.h>
-#include <lmcons.h>     // UNLEN — максимальная длина имени пользователя
+﻿#include <windows.h>
+#include <lmcons.h>
 #include <cstdio>
 #include <clocale>
 
 int main()
 {
-    setlocale(LC_CTYPE, "rus");     // русификация вывода
+    setlocale(LC_CTYPE, "rus");
 
     // Имя пользователя
     TCHAR userName[UNLEN + 1];
-    DWORD userSize = _countof(userName);    // размер буфера в символах
+    DWORD userSize = _countof(userName);
     if (GetUserName(userName, &userSize))
         wprintf_s(L"Имя пользователя: %s\n", userName);
     else

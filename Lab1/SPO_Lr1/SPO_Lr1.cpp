@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include <cstdio>
 #include <clocale>
+#include <cstdlib>
 using namespace std;
 
 struct House
@@ -23,6 +24,7 @@ int main()
     if (!cin)
     {
         cout << "Ошибка ввода номера бригады" << endl;
+        system("pause");
         return 1;
     }
 
@@ -72,6 +74,7 @@ int main()
     if (!cin)
     {
         cout << "Ошибка ввода s" << endl;
+        system("pause");
         return 1;
     }
 
@@ -80,6 +83,7 @@ int main()
     if (fopen_s(&f, fname, "w") != 0)
     {
         printf_s("Ошибка открытия файла %s\n", fname);
+        system("pause");
         return 1;
     }
 
@@ -109,5 +113,6 @@ int main()
     fclose(f);
     printf_s("\nРезультат записан в файл %s\n", fname);
 
+    system("pause");
     return 0;
 }

@@ -2,6 +2,7 @@
 #include <lmcons.h>
 #include <cstdio>
 #include <clocale>
+#include <cstdlib>
 
 int main()
 {
@@ -23,5 +24,6 @@ int main()
     else
         wprintf_s(L"Ошибка GetComputerName, код %lu\n", GetLastError());
 
+    system("pause");
     return 0;
 }

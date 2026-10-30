@@ -1,0 +1,29 @@
+[
+  {
+    "priority": -1,
+    "active_avg1": 37801307.5,
+    "inactive_avg1": 43857001.900000006,
+    "active_a": 36281624.3,
+    "active_b": 39320990.7,
+    "inactive_a": 38746553.2,
+    "inactive_b": 48967450.6
+  },
+  {
+    "priority": 0,
+    "active_avg1": 48489495.1,
+    "inactive_avg1": 64962989.0,
+    "active_a": 48677522.6,
+    "active_b": 48301467.6,
+    "inactive_a": 46351292.5,
+    "inactive_b": 83574685.5
+  },
+  {
+    "priority": 1,
+    "active_avg1": 84735344.4,
+    "inactive_avg1": 62840265.05,
+    "active_a": 84744192.4,
+    "active_b": 84726496.4,
+    "inactive_a": 77917832.0,
+    "inactive_b": 47762698.1
+  }
+]

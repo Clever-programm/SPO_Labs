@@ -1,0 +1,282 @@
+@doc view=2.2 blocks=188 paras=180 tables=7 parts=17 legend=read.py --legend paraid=blocks(+146 inside cells/notes: --raw)
+@fmt &9pt=eastAsia=Consolas;hAnsi=Consolas;latin=Consolas;size=9pt
+@fmt &a=after=0pt;line=1x
+@fmt &a2=after=0pt;align=center;line=1x
+@fmt &a3=cs=~minorBidi;eastAsia="Times New Roman";hAnsi="Times New Roman";lang=en/ar;latin="Times New Roman"
+@fmt &a4=after=8pt;align=center;before=0pt;+keepNext
+@fmt &a5=align=both;before=0pt;hanging=17.85pt;indL=35.45pt
+@fmt &a6=align=both;before=0pt;first=35.45pt
+@fmt &a7=after=0pt;align=center;before=0pt
+@fmt &12pt=size=12pt
+@fmt &a8=bg=E7E6E6
+@fmt &a9=align=both;first=35.45pt
+@fmt &a10=va=center;w=85.05pt
+@fmt aliases above are assigned per document and are not comparable across files (same name ≠ same meaning)
+@theme minor: latin=Cambria Hans=宋体 Hant=新細明體 | major: latin=Calibri Hans=宋体 Hant=新細明體
+@style Normal* count=317 p:after=6pt;line=1.15x r:&a3;size=14pt
+@style Heading1 count=9 "heading 1" p:after=6pt;before=12pt;+keepLines;+keepNext;line=1.15x;outline=0 r:+b;cs=~majorBidi;eastAsia="Times New Roman";hAnsi="Times New Roman";lang=en/ar;latin="Times New Roman";size=14pt
+@style Footer count=1 "footer" p:&a;tabs=center@234pt,right@468pt r:&a3;size=14pt
+@style TableGrid table count=6 "Table Grid" p:&a r:cs=~minorBidi;eastAsia=~minorEastAsia;hAnsi=~minorHAnsi;lang=en/ar;latin=~minorHAnsi;size=11pt
+@range [0–4] &a7 &12pt (range facts apply to every block in the range and are not repeated on block lines; same below)
+[0 #7DB1625A] МИНИСТЕРСТВО ОБРАЗОВАНИЯ И НАУКИ
+[1 #59327232] РОССИЙСКОЙ ФЕДЕРАЦИИ
+[2 #7E1F2DDE] Федеральное государственное бюджетное образовательное учреждение
+[3 #4F2A2422] высшего образования
+[4 #63874AB0] САМАРСКИЙ ГОСУДАРСТВЕННЫЙ ТЕХНИЧЕСКИЙ УНИВЕРСИТЕТ
+[5 #36740CAA after=4pt;align=both;before=0pt]
+[6 #7189051E align=center] (img1)
+ └ img1 3.12cmx1.45cm media/image1.png
+[7 #622A86FE &a7 &12pt] Институт автоматики и информационных технологий
+[8 #60E8944E &a7 &12pt] Кафедра «Информатика и вычислительная техника»
+[9 #1E6B5BB4 after=18pt;align=both;before=0pt]
+[10 #757FA2A8 align=center;before=0pt +b;size=15pt] ОТЧЕТ
+[11 #7DC2AC3E after=12pt;align=center;before=0pt +b;size=15pt] о выполнении лабораторной работы №3
+[12 #792B9FAE align=center;before=0pt] по дисциплине «Системное программное обеспечение»
+[13 #6ECD1332 after=20pt;align=center;before=0pt] на тему «Процессы и потоки. Исследование диспетчеризации потоков»
+[14 table 4×3 cols=155.9pt/155.9pt/155.9pt align=center w=auto layout=fixed look=firstRow+firstColumn+noVBand cellr:&a3;&12pt c1[w=113.4pt]{after=6pt;align=center;line=1.15x} c2[w=170.1pt]{after=6pt;align=center;line=1.15x} c3[w=170.1pt]{after=6pt;align=right;line=1.15x}]
+  r1 | Преподаватель | доцент | К.В. Портнов
+  r2 |  | ст. преподаватель | С.А. Федосов
+  r3 | Студенты | 3-ИАИТ-119 | П.М. Марченко
+  r4 |  | 3-ИАИТ-119 | И.Д. Царегородцев
+[15 #1926379A after=18pt;align=both;before=0pt]
+[16 #49B1146C &a7 &12pt] Самара 2026 г.
+[17 #7F41F470] (pgbr)
+[18 #70193264 &a9] Цель работы: знакомство со средствами создания и управления процессами и потоками, исследование алгоритма диспетчеризации потоков операционной системы Windows.
+ └ +b "Цель …ты: "
+[19 #6E7E151C @Heading1] Задание.
+@range [20–25] &a5
+[20 #57BBB53A] 1) разработать приложение с главным и двумя дополнительными потоками; дополнительные потоки должны вычислять тригонометрическое выражение, а главный — ежесекундно выводить и сбрасывать счетчики итераций;
+[21 #3A3F4DD2] 2) исследовать зависимость числа итераций от приоритета первого потока при нормальном приоритете второго, используя все ядра и одно ядро; построить графики;
+[22 #6FC74670] 3) запустить две копии приложения и исследовать влияние активности окна;
+[23 #4D5B9B50] 4) добавить задержку 5 мс в цикл каждого потока и повторить измерения для всех ядер и одного ядра;
+[24 #48F53258] 5) установить приоритеты LOWEST и HIGHEST, ограничить процесс одним ядром и наблюдать динамическое повышение приоритета;
+[25 #36F1CBAA] 6) получить число потоков приложения и оценить загрузку процессора.
+[26 #2B21C4E4 &a6] Работа выполнена в Microsoft Visual Studio на языке C++ в соответствии с методическими указаниями. Создано решение Lab3 с консольным приложением SPO_Lr3. Использованы функции Win32 API CreateThread, GetCurrentThread, SetThreadPriority, Sleep и сопутствующие функции управления дескрипторами. Для каждого условия выполнялась 8-секундная серия; в таблицах приведены средние значения за секунды 2–8, чтобы исключить запуск процесса из усреднения.
+[27 #38B3D8F2 @Heading1] 1. Использованные функции Win32 API.
+[28 #7C9CC556 &a4 &12pt] Таблица 1 – Функции Win32 API, использованные в работе
+[29 table 11×2 cols=141.75pt/311.8pt style=TableGrid align=center w=auto layout=fixed look=firstRow+firstColumn+noVBand cellr:&a3 c1[va=center;w=141.75pt]{&a2} c2[va=center;w=311.8pt]{&a2}]
+  r1 | Функция | Назначение
+   └ r1 +header-row · c1 &a8 · c2 &a8
+  r2 | CreateThread | Создает дополнительный поток внутри текущего процесса
+  r3 | GetCurrentThread | Возвращает дескриптор текущего потока
+  r4 | SetThreadPriority | Устанавливает относительный приоритет потока
+  r5 | Sleep | Приостанавливает поток на заданное число миллисекунд
+  r6 | GetCurrentProcessId | Возвращает идентификатор текущего процесса
+  r7 | InterlockedIncrement | Атомарно увеличивает счетчик итераций
+  r8 | InterlockedExchange | Атомарно считывает счетчик и сбрасывает его в ноль
+  r9 | WaitForSingleObject | Ожидает завершения дополнительного потока
+  r10 | CloseHandle | Закрывает дескриптор потока
+  r11 | SetConsoleTitle | Задает заголовок окна для различения двух копий
+[30 #2A50A1DC after=0pt]
+[31 #322E8BE4 @Heading1] 2. Тестовое приложение.
+[32 #1656D6C2 &a6] Приложение содержит три потока: главный и два вычислительных. Каждый вычислительный поток получает структуру ThreadData, устанавливает свой приоритет и в бесконечном цикле вычисляет y += sin(x) · cos(x), увеличивая x на каждой итерации. Если задана задержка, после итерации вызывается Sleep(delay). Главный поток раз в секунду выводит оба счетчика и сбрасывает их. Атомарные операции использованы только для исключения потери обновлений при одновременном доступе к счетчику.
+[33 #19D5D576 &a6] Аргументы командной строки: приоритет первого потока, приоритет второго потока, задержка в миллисекундах и длительность измерения в секундах. Значения приоритетов: −2 — LOWEST, −1 — BELOW_NORMAL, 0 — NORMAL, 1 — ABOVE_NORMAL, 2 — HIGHEST. Нулевая длительность означает непрерывную работу. Полный исходный код приведен в разделе 8.
+[34 #4E7A3166 @Heading1] 3. Задание 2. Влияние приоритета и числа доступных ядер.
+[35 #41D4DAA2 &a6] Приоритет второго потока установлен NORMAL. Для первого потока последовательно использованы BELOW_NORMAL, NORMAL и ABOVE_NORMAL. Ограничение одним ядром реализовано маской соответствия процессора 1 — тем же параметром, который изменяется командой «Задать соответствие» Диспетчера задач.
+[36 #7AD12F3C &a4 &12pt] Таблица 2 – Среднее число итераций за секунду без задержки
+[37 table 4×5 cols=113.4pt/85.05pt/85.05pt/85.05pt/85.05pt style=TableGrid align=center w=auto layout=fixed look=firstRow+firstColumn+noVBand cellr:&a3 c1[va=center;w=113.4pt]{&a2} c2[&a10]{&a2} c3[&a10]{&a2} c4[&a10]{&a2} c5[&a10]{&a2}]
+  r1 | Приоритет потока 1 | Все ядра,(br)поток 1, млн/с | Все ядра,(br)поток 2, млн/с | Одно ядро,(br)поток 1, млн/с | Одно ядро,(br)поток 2, млн/с
+   └ r1 +header-row · c1 &a8 · c2 &a8 · c3 &a8 · c4 &a8 · c5 &a8
+  r2 | Ниже нормального(br)BELOW_NORMAL | 61,02 | 39,35 | 0,04 | 119,53
+  r3 | Нормальный(br)NORMAL | 60,80 | 38,86 | 58,13 | 61,18
+  r4 | Выше нормального(br)ABOVE_NORMAL | 42,70 | 42,34 | 101,34 | 16,58
+[38 #5E59B894 after=0pt]
+[39 #5AFEF016 align=center;+keepNext] (img1)
+ └ img1 15.50cmx8.66cm media/image2.png
+[40 #44B29C76 &a4 &12pt] Рисунок 1 – Зависимость производительности первого потока от его приоритета
+[41 #519C108C &a9] Вывод по эксперименту: при доступности всех ядер зависимость не является монотонной (61,02; 60,80; 42,70 млн/с), поскольку потоки могут выполняться на разных ядрах, а фоновая нагрузка влияет на результат. На одном ядре влияние приоритета выражено: при BELOW_NORMAL первый поток почти не получает процессорное время (0,04 млн/с), при NORMAL оба потока получают близкие доли (58,13 и 61,18 млн/с), а при ABOVE_NORMAL первый поток достигает 101,34 млн/с, второй — только 16,58 млн/с.
+ └ +b "Вывод…ту: "
+[42 #74B8DB9A @Heading1] 4. Задание 3. Влияние активности окна при работе двух копий.
+[43 #66F727EC &a6] Одновременно запущены две копии приложения с одинаковыми приоритетами. Измерения разделены на две 10-секундные фазы: в первой активна копия A, во второй — копия B. В таблице усреднены результаты первого потока обеих копий для активного и неактивного состояния; приоритет второго потока оставался NORMAL.
+[44 #5B2EF602 &a4 &12pt] Таблица 3 – Производительность первого потока двух копий приложения
+[45 table 4×3 cols=198.45pt/127.55pt/127.55pt style=TableGrid align=center w=auto layout=fixed look=firstRow+firstColumn+noVBand cellr:&a3 c1[va=center;w=198.45pt]{&a2} c2[va=center;w=127.55pt]{&a2} c3[va=center;w=127.55pt]{&a2}]
+  r1 | Приоритет потока 1 | Активное окно,(br)млн/с | Неактивное окно,(br)млн/с
+   └ r1 +header-row · c1 &a8 · c2 &a8 · c3 &a8
+  r2 | Ниже нормального(br)BELOW_NORMAL | 37,80 | 43,86
+  r3 | Нормальный(br)NORMAL | 48,49 | 64,96
+  r4 | Выше нормального(br)ABOVE_NORMAL | 84,74 | 62,84
+[46 #556E393C after=0pt]
+[47 #3EBC75F8 align=center;+keepNext] (img1)
+ └ img1 15.50cmx8.65cm media/image3.png
+[48 #7D167AAC &a4 &12pt] Рисунок 2 – Влияние активности окна на производительность потока
+[49 #34191F02 &a9] Вывод по эксперименту: устойчивого преимущества активного окна не обнаружено. При BELOW_NORMAL и NORMAL активная копия выполнила меньше итераций (37,80 против 43,86 и 48,49 против 64,96 млн/с), а при ABOVE_NORMAL — больше (84,74 против 62,84 млн/с). Следовательно, при доступных 16 логических процессорах и изменчивой фоновой нагрузке активность окна не является основным фактором производительности; решающее значение имеют приоритет и распределение потоков планировщиком.
+ └ +b "Вывод…ту: "
+[50 #1944DF8E @Heading1] 5. Задание 4. Влияние задержки 5 мс.
+[51 #1CCE85E2 &a6] В цикл каждого вычислительного потока добавлена задержка Sleep(5). Остальные условия соответствуют заданию 2.
+[52 #75D7C080 &a4 &12pt] Таблица 4 – Среднее число итераций за секунду с задержкой 5 мс
+[53 table 4×5 cols=113.4pt/85.05pt/85.05pt/85.05pt/85.05pt style=TableGrid align=center w=auto layout=fixed look=firstRow+firstColumn+noVBand cellr:&a3 c1[va=center;w=113.4pt]{&a2} c2[&a10]{&a2} c3[&a10]{&a2} c4[&a10]{&a2} c5[&a10]{&a2}]
+  r1 | Приоритет потока 1 | Все ядра,(br)поток 1, 1/с | Все ядра,(br)поток 2, 1/с | Одно ядро,(br)поток 1, 1/с | Одно ядро,(br)поток 2, 1/с
+   └ r1 +header-row · c1 &a8 · c2 &a8 · c3 &a8 · c4 &a8 · c5 &a8
+  r2 | Ниже нормального(br)BELOW_NORMAL | 64,86 | 64,86 | 64,71 | 64,71
+  r3 | Нормальный(br)NORMAL | 64,71 | 64,86 | 65,14 | 65,00
+  r4 | Выше нормального(br)ABOVE_NORMAL | 64,57 | 64,71 | 65,00 | 65,14
+[54 #0E9F1E04 after=0pt]
+[55 #6EB37BAA align=center;+keepNext] (img1)
+ └ img1 15.50cmx8.66cm media/image4.png
+[56 #187128E0 &a4 &12pt] Рисунок 3 – Зависимость производительности от приоритета при задержке 5 мс
+[57 #0121D486 &a9] Вывод по эксперименту: число итераций практически не зависит от приоритета и числа ядер и составляет 64,57–65,14 1/с. Потоки большую часть времени находятся в состоянии ожидания, поэтому не конкурируют за процессор. Полученная частота соответствует фактическому периоду ожидания около 15,4 мс, а не номинальным 5 мс.
+ └ +b "Вывод…ту: "
+[58 #25B90AF4 @Heading1] 6. Задание 5. Голодание и динамическое повышение приоритета.
+[59 #4B62933A &a6] Первому потоку установлен приоритет THREAD_PRIORITY_LOWEST, второму — THREAD_PRIORITY_HIGHEST, процесс ограничен одним ядром. В таблице приведены все секундные измерения без усреднения. Первая секунда включает запуск и установку ограничения, поэтому не отражает установившийся режим.
+[60 #51CADD2E &a4 &12pt] Таблица 5 – Число итераций при приоритетах LOWEST и HIGHEST на одном ядре
+[61 table 16×3 cols=70.85pt/191.35pt/191.35pt style=TableGrid align=center w=auto layout=fixed look=firstRow+firstColumn+noVBand cellr:&a3 c1[va=center;w=70.85pt]{&a2} c2[va=center;w=191.35pt]{&a2} c3[va=center;w=191.35pt]{&a2}]
+  r1 | Секунда | Поток 1 (LOWEST), итераций | Поток 2 (HIGHEST), итераций
+   └ r1 +header-row · c1 &a8 · c2 &a8 · c3 &a8
+  r2 | 1 | 40 425 057 | 135 392 858
+  r3 | 2 | 0 | 111 631 806
+  r4 | 3 | 0 | 105 534 011
+  r5 | 4 | 0 | 96 361 820
+  r6 | 5 | 0 | 97 186 860
+  r7 | 6 | 0 | 96 924 879
+  r8 | 7 | 38 953 | 93 678 977
+  r9 | 8 | 0 | 96 474 586
+  r10 | 9 | 0 | 95 819 201
+  r11 | 10 | 0 | 93 477 862
+  r12 | 11 | 0 | 95 373 391
+  r13 | 12 | 2 278 719 | 91 782 578
+  r14 | 13 | 0 | 91 826 005
+  r15 | 14 | 0 | 93 732 260
+  r16 | 15 | 0 | 94 542 841
+[62 #3A68EB30 after=0pt]
+[63 #5A4BABD6 align=center;+keepNext] (img1)
+ └ img1 15.50cmx8.61cm media/image5.png
+[64 #54B5E59E &a4 &12pt] Рисунок 4 – Голодание потока LOWEST и всплески его активности
+[65 #0F5DE430 &a9] Вывод по эксперименту: со 2-й по 15-ю секунду первый поток большую часть времени получает 0 итераций, поскольку процессор занят потоком HIGHEST. В 7-ю секунду выполнены 38 953 итерации, а в 12-ю — 2 278 719 итераций. Эти кратковременные всплески показывают, что Windows динамически повышает приоритет длительно ожидающего потока и предотвращает его постоянное голодание.
+ └ +b "Вывод…ту: "
+[66 #601F90CA @Heading1] 7. Задание 6. Число потоков и загрузка процессора.
+[67 #72A38D30 &a6] Во время непрерывного запуска SPO_Lr3.exe с двумя потоками NORMAL получены сведения о процессе и сделан снимок Диспетчера задач. Число потоков подтверждено средствами Windows Get-Process, загрузка процесса оценена по приращению его процессорного времени за одну секунду.
+[68 #6316DACE &a4 &12pt] Таблица 6 – Сведения о тестовом приложении
+[69 table 6×2 cols=311.8pt/141.75pt style=TableGrid align=center w=auto layout=fixed look=firstRow+firstColumn+noVBand cellr:&a3 c1[va=center;w=311.8pt]{&a2} c2[va=center;w=141.75pt]{&a2}]
+  r1 | Показатель | Значение
+   └ r1 +header-row · c1 &a8 · c2 &a8
+  r2 | Идентификатор процесса | 22660
+  r3 | Количество потоков | 3
+  r4 | Логических процессоров в системе | 16
+  r5 | Загрузка процессора процессом | 14,1 %
+  r6 | Общая загрузка ЦП на снимке Диспетчера задач | 32 %
+[70 #14D1228C after=0pt]
+[71 #1292F3AE align=center;+keepNext] (img1)
+ └ img1 15.50cmx8.33cm media/image6.png
+[72 #4C193B4A &a4 &12pt] Рисунок 5 – Диспетчер задач во время работы тестового приложения
+[73 #5421AA5E &a9] Вывод по эксперименту: процесс имеет ожидаемые три потока — главный и два дополнительных. Два вычислительных потока занимают примерно два логических процессора: 2 / 16 · 100 % = 12,5 % общей производительности; измеренные 14,1 % близки к этой оценке с учетом колебаний частоты и фоновой активности.
+ └ +b "Вывод…ту: "
+[74 #2E797DDC @Heading1] 8. Исходный код тестового приложения.
+[75 #334F5A32 &a4 &12pt] Листинг 1 – Файл SPO_Lr3.cpp
+@range [76–184] &a &9pt
+[76 #07DF5586] // Лабораторная работа № 3. Процессы и потоки.
+[77 #4098BFC4] // Исследование диспетчеризации потоков.
+[78 #6EC17944]  
+[79 #52269712] #include <windows.h>
+[80 #6ACBF44A] #include <cstdio>
+[81 #5B921C8A] #include <cstdlib>
+[82 #2EC0930E] #include <clocale>
+[83 #3BF59CDE] #include <cmath>
+[84 #031DCCF0]  
+[85 #15644D50] struct ThreadData
+[86 #560431C0] {
+[87 #21C7FEC2]     int priority;              // относительный приоритет потока
+[88 #24D38868]     DWORD delay;               // задержка в каждом цикле, мс
+[89 #784026CA]     volatile LONG count;       // число итераций за текущую секунду
+[90 #51F3EE1E]     volatile BOOL finish;      // признак завершения потока
+[91 #3D8F1ED4]     double result;             // результат вычислений (не дает удалить их оптимизатору)
+[92 #55E6C474] };
+[93 #5C7BE3DE]  
+[94 #21919B7A] // Функция дополнительного потока: непрерывное вычисление тригонометрического выражения
+[95 #0088DCFC] DWORD WINAPI CalculationThread(LPVOID lpParam)
+[96 #490C641A] {
+[97 #60658D2A]     ThreadData* data = (ThreadData*)lpParam;
+[98 #518B4612]     SetThreadPriority(GetCurrentThread(), data->priority);
+[99 #33D7CC9C]  
+[100 #2A5C3780]     double x = 0.0;
+[101 #4547F1F4]     double y = 0.0;
+[102 #78DF569E]     while (!data->finish)
+[103 #6CF3D3B4]     {
+[104 #7A1EE146]         x += 0.000001;
+[105 #118B1C94]         y += sin(x) * cos(x);
+[106 #3956E216]         InterlockedIncrement(&data->count);
+[107 #49A62E1C]         if (data->delay != 0)
+[108 #51D18602]             Sleep(data->delay);
+[109 #5E6F3C04]     }
+[110 #23A78A46]     data->result = y;
+[111 #29B5011C]     return 0;
+[112 #03AD5276] }
+[113 #1B0E7C00]  
+[114 #01A6BF54] const char* PriorityName(int priority)
+[115 #2B7B747E] {
+[116 #0A2DE40E]     switch (priority)
+[117 #37D60F2A]     {
+[118 #5525A56A]     case THREAD_PRIORITY_LOWEST:       return "LOWEST";
+[119 #19F66B64]     case THREAD_PRIORITY_BELOW_NORMAL: return "BELOW_NORMAL";
+[120 #0860B7C0]     case THREAD_PRIORITY_NORMAL:       return "NORMAL";
+[121 #742CF39A]     case THREAD_PRIORITY_ABOVE_NORMAL: return "ABOVE_NORMAL";
+[122 #2A996D9C]     case THREAD_PRIORITY_HIGHEST:      return "HIGHEST";
+[123 #0F923350]     default:                           return "UNKNOWN";
+[124 #21B0DCD8]     }
+[125 #6A430F5E] }
+[126 #07753CAA]  
+[127 #3BB175E0] int main(int argc, char* argv[])
+[128 #27B644E6] {
+[129 #084BB982]     setlocale(LC_CTYPE, "rus");
+[130 #5A47B4E0]     if (argc > 5)
+[131 #08EF88AC]         SetConsoleTitleA(argv[5]);
+[132 #2D0AD0DA]  
+[133 #67B449AE]     // Аргументы: приоритет 1, приоритет 2, задержка (мс), длительность (с).
+[134 #1A15C8D8]     // Нулевая длительность означает работу до закрытия окна или Ctrl+C.
+[135 #4FF1C7F2]     int priority1 = argc > 1 ? atoi(argv[1]) : THREAD_PRIORITY_NORMAL;
+[136 #4E6FEADA]     int priority2 = argc > 2 ? atoi(argv[2]) : THREAD_PRIORITY_NORMAL;
+[137 #0C3F0752]     DWORD delay = argc > 3 ? (DWORD)atoi(argv[3]) : 0;
+[138 #7B521D6E]     int duration = argc > 4 ? atoi(argv[4]) : 0;
+[139 #5F9DFEF2]  
+[140 #5C237B08]     ThreadData data1 = { priority1, delay, 0, FALSE, 0.0 };
+[141 #3F0F87B6]     ThreadData data2 = { priority2, delay, 0, FALSE, 0.0 };
+[142 #6C0AF508]  
+[143 #56CFE6EC]     HANDLE h1 = CreateThread(NULL, 0, CalculationThread, &data1, 0, NULL);
+[144 #59D88414]     HANDLE h2 = CreateThread(NULL, 0, CalculationThread, &data2, 0, NULL);
+[145 #0AEAC76A]     if (h1 == NULL || h2 == NULL)
+[146 #3AFDFF16]     {
+[147 #73F0FC82]         printf_s("Ошибка CreateThread, код %lu\\n", GetLastError());
+[148 #28B09832]         return 1;
+[149 #1A561AAE]     }
+[150 #74B45CE8]  
+[151 #54B90176]     printf_s("SPO_Lr3, PID=%lu\\n", GetCurrentProcessId());
+[152 #651CB9AE]     printf_s("Поток 1: %s (%d); поток 2: %s (%d); задержка: %lu мс\\n",
+[153 #3C892402]         PriorityName(priority1), priority1, PriorityName(priority2), priority2, delay);
+[154 #1F5303F2]     printf_s("Секунда;Итерации потока 1;Итерации потока 2\\n");
+[155 #25FAC62C]  
+[156 #0A51250A]     long long sum1 = 0, sum2 = 0;
+[157 #37E06FE4]     int second = 1;
+[158 #4C3EC7C2]     while (duration == 0 || second <= duration)
+[159 #7803308A]     {
+[160 #34544DD4]         Sleep(1000);
+[161 #47AE78B4]         LONG count1 = InterlockedExchange(&data1.count, 0);
+[162 #61EE1544]         LONG count2 = InterlockedExchange(&data2.count, 0);
+[163 #4165C71A]         printf_s("%d;%ld;%ld\\n", second, count1, count2);
+[164 #2CFD9CAE]         fflush(stdout);
+[165 #67D32D36]         sum1 += count1;
+[166 #485B722A]         sum2 += count2;
+[167 #6CFAED20]         second++;
+[168 #41187D54]     }
+[169 #58719884]  
+[170 #2E63DECE]     data1.finish = TRUE;
+[171 #47CA36B2]     data2.finish = TRUE;
+[172 #4713E746]     WaitForSingleObject(h1, INFINITE);
+[173 #10479FDA]     WaitForSingleObject(h2, INFINITE);
+[174 #184ADBD6]     CloseHandle(h1);
+[175 #0C1937D2]     CloseHandle(h2);
+[176 #01946658]  
+[177 #08495A42]     int measured = second - 1;
+[178 #76F6F546]     if (measured > 0)
+[179 #6908C80C]     {
+[180 #4664F708]         printf_s("Среднее;%.1f;%.1f\\n", (double)sum1 / measured, (double)sum2 / measured);
+[181 #0EC05AB4]         printf_s("Результаты вычислений: %.3f; %.3f\\n", data1.result, data2.result);
+[182 #299B0E10]     }
+[183 #22BE1EB0]     return 0;
+[184 #0B486C40] }
+[185 #521932CC after=0pt;align=both;before=0pt]
+[186 #746A8504 &a9] Вывод: в ходе работы разработано приложение с тремя потоками, использующее Win32 API для создания потоков, изменения их приоритетов и измерения числа вычислительных итераций. Эксперименты показали, что приоритет существенно влияет на производительность при конкуренции за один процессор: повышение приоритета первого потока увеличивает его долю процессорного времени и уменьшает долю второго. При доступности нескольких ядер эта зависимость слабее и может маскироваться параллельным выполнением и фоновой нагрузкой. Задержка в цикле устраняет конкуренцию за процессор, поэтому влияние приоритета почти исчезает. При крайних приоритетах наблюдается голодание низкоприоритетного потока, периодически прерываемое динамическим повышением его приоритета. Критерием влияния приоритета на производительность является устойчивое различие числа итераций при одинаковой вычислительной работе и неизменных прочих условиях; наиболее явно оно проявляется при ограничении одним ядром и отсутствии задержек.
+ └ +b "Вывод: "
+@sec [0-187] 595.3ptx841.9pt margin=56.7pt/42.5pt/56.7pt/85.05pt cols=1 +titlePg ftr:default=footer1.xml
+@part word/footer1.xml
+  [footer1.xml:0 #238B01B8 @Footer align=center] (f1)
+   └ f1 PAGE → (no cache)
+@skip present but not rendered (named for totality; check --raw if layout puzzles): fldChar@fldCharType, kern, latentStyles, lvl@ilvl, numFmt, pgMar@footer, pgMar@gutter, pgMar@header, rsid, style@customStyle, tblStyleColBandSize, tblStyleRowBandSize

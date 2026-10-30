@@ -1,0 +1,707 @@
+@doc view=2.2 blocks=549 paras=543 tables=5 parts=19 legend=read.py --legend paraid=blocks(+138 inside cells/notes: --raw)
+@fmt &a=after=0pt;before=0pt;indR=-7.1pt;line=1x
+@fmt &Consol=font=Consolas;size=9pt
+@fmt &14pt=font="Times New Roman";size=14pt
+@fmt &a2=hanging=17pt;indL=52.45pt
+@fmt &a3=after=0pt;align=center;line=1x;snapGrid=off;tabs=left@361.5pt:underscore,left@439.45pt:underscore
+@fmt &a4=after=0pt;line=1x;tabs=left@439.45pt:underscore
+@fmt &11pt=cs=~minorBidi;eastAsia=~minorHAnsi;hAnsi=~minorHAnsi;lang=ru/en/ar;latin=~minorHAnsi;size=11pt
+@fmt &14pt2=+b;font="Times New Roman";size=14pt
+@fmt &a5=before=6pt;first=35.45pt;+keepNext
+@fmt &a6=after=4pt;align=center;+keepNext
+@fmt &a7=first=35.45pt
+@fmt &a8=bd=bottom:0.125pt;va=bottom
+@fmt &a9=bd=top:0.5pt
+@fmt aliases above are assigned per document and are not comparable across files (same name ≠ same meaning)
+@theme minor: latin=Aptos Hans=等线 Hant=新細明體 | major: latin=Aptos Display Hans=等线 Light Hant=新細明體
+@style Normal* count=667 p:after=8pt;line=1.07917x r:&11pt
+@style Footer count=1 "footer" p:after=0pt;line=1x;tabs=center@233.85pt,right@467.75pt r:&11pt
+@style Header count=1 "header" p:after=0pt;line=1x;tabs=center@233.85pt,right@467.75pt r:&11pt
+[0 table 3×2 cols=101.05pt/395.1pt w=496.15pt look=firstRow+firstColumn+noVBand indent=-8.8pt cellr:cs=~minorBidi;eastAsia="Times New Roman";hAnsi="Times New Roman CYR";lang=ru;latin="Times New Roman CYR" row:h=14.15pt c1[va=center;w=101.05pt]{after=0pt;align=center;line=1x} c2[va=center;w=395.1pt]{after=0pt;align=center;indL=-2.85pt;indR=-2.85pt;line=1x}]
+  r1:
+    c1
+    c2 МИНИСТЕРСТВО ОБРАЗОВАНИЯ И НАУКИ
+    c2 РОССИЙСКОЙ ФЕДЕРАЦИИ
+    c2 Федеральное государственное бюджетное образовательное учреждение
+    c2 высшего образования
+    c2 САМАРСКИЙ ГОСУДАРСТВЕННЫЙ ТЕХНИЧЕСКИЙ УНИВЕРСИТЕТ
+    c2
+    c2 Институт автоматики и информационных технологий
+    c2 Кафедра «Информатика и вычислительная техника»
+   └ c2 rowspan=3
+  r2 | (img1) | ^
+   └ r2 h=85.1pt · c1 img1 3.12cmx2.99cm media/image1.png
+  r3 |  | ^
+[1 #5143EC55 after=0pt;line=1x]
+ └ mark +b;eastAsia="Times New Roman";hAnsi="Times New Roman CYR";lang=ru;latin="Times New Roman CYR";size=12pt
+@range [2–4] &a4 (range facts apply to every block in the range and are not repeated on block lines; same below)
+[2 #35CE5B30]
+ └ mark eastAsia="Times New Roman";hAnsi="Times New Roman CYR";lang=ru;latin="Times New Roman CYR";size=14pt
+[3 #488CFFE7]
+ └ mark eastAsia="Times New Roman";hAnsi="Times New Roman CYR";lang=ru;latin="Times New Roman CYR";size=14pt
+[4 #644214FC]
+ └ mark eastAsia="Times New Roman";hAnsi="Times New Roman CYR";lang=ru;latin="Times New Roman CYR";size=14pt
+[5 #562C001B after=12pt;align=center;line=1x +b;eastAsia="Times New Roman";hAnsi="Times New Roman CYR";lang=ru;latin="Times New Roman CYR";size=15pt] ОТЧЕТ
+[6 #710CEF9C after=12pt;align=center;line=1x +b;eastAsia="Times New Roman";hAnsi="Times New Roman CYR";lang=ru;latin="Times New Roman CYR";size=15pt] о выполнении лабораторной работы №2
+[7 #185131C7 after=12pt;align=center;line=1x]
+ └ mark +b;charSpacing=2pt;eastAsia="Times New Roman";hAnsi="Times New Roman CYR";lang=ru;latin="Times New Roman CYR";size=15pt
+[8 table 1×2 cols=113.4pt/347.3pt w=auto look=firstRow+firstColumn+noVBand indent=5.4pt cellr:cs=~minorBidi;eastAsia="Times New Roman";hAnsi="Times New Roman CYR";lang=ru;latin="Times New Roman CYR";size=14pt;sizeCs=10pt row:h=19.85pt c1[va=center;w=113.4pt]{after=0pt;align=center;line=1x;tabs=left@439.45pt:underscore} c2[bd=bottom:0.5pt;va=center;w=347.3pt]{after=0pt;align=center;line=1x;tabs=left@439.45pt:underscore}]
+  r1 | по дисциплине | Системное программное обеспечение
+[9 #5C394A2F &a4]
+ └ mark eastAsia="Times New Roman";hAnsi="Times New Roman CYR";lang=ru;latin="Times New Roman CYR";size=14pt;sizeCs=10pt
+[10 table 1×2 cols=78pt/382.7pt w=auto layout=fixed indent=2.75pt mar=2.75pt/-/2.75pt/- cellr:cs=~minorBidi;eastAsia="Times New Roman";hAnsi="Times New Roman CYR";lang=ru;latin="Times New Roman CYR";size=14pt row:h=17pt c1[va=center;w=78pt]{after=0pt;align=right;indL=5.65pt;indR=5.65pt;line=1x} c2[bd=bottom:0.5pt;va=center;w=382.7pt]{after=0pt;align=center;line=1x}]
+  r1 | на тему | Монитор процессов и потоков
+@range [11–15] &a4
+[11 #177474B3]
+ └ mark eastAsia="Times New Roman";hAnsi="Times New Roman CYR";lang=ru;latin="Times New Roman CYR";size=14pt
+[12 #69ADB1D8]
+ └ mark eastAsia="Times New Roman";hAnsi="Times New Roman CYR";lang=ru;latin="Times New Roman CYR";size=14pt
+[13 #478C9BDC]
+ └ mark eastAsia="Times New Roman";hAnsi="Times New Roman CYR";lang=ru;latin="Times New Roman CYR";size=14pt
+[14 #78443271]
+ └ mark eastAsia="Times New Roman";hAnsi="Times New Roman CYR";lang=ru;latin="Times New Roman CYR";size=14pt
+[15 #6B500BFD]
+ └ mark eastAsia="Times New Roman";hAnsi="Times New Roman CYR";lang=ru;latin="Times New Roman CYR";size=14pt
+[16 table 8×5 cols=94.9pt/83.7pt/93.55pt/76.55pt/105.8pt w=auto layout=fixed indent=11.45pt mar=2.75pt/-/2.75pt/- cellr:cs=~minorBidi;eastAsia="Times New Roman";hAnsi="Times New Roman CYR";lang=ru;latin="Times New Roman CYR";size=9pt c1[w=94.9pt]{&a3} c2[mar=3.5pt/-/3.5pt/-;w=83.7pt]{&a3} c3[mar=3.5pt/-/3.5pt/-;w=93.55pt]{&a3} c4[w=76.55pt]{&a3} c5[w=105.8pt]{&a3}]
+  r1 | Преподаватель | доцент |  |  | К.В. Портнов
+   └ r1 h=22.7pt · c1 va=bottom · c2 bd=bottom:0.5pt;va=bottom · c3 bd=bottom:0.5pt;va=bottom · c4 bd=bottom:0.5pt;va=bottom · c5 bd=bottom:0.5pt;va=bottom
+  r2 |  | (должность) | (подпись) | (дата) | (инициалы, фамилия)
+   └ r2 h=8.6pt · c2 &a9 · c3 &a9 · c4 &a9 · c5 &a9
+  r3 |  | ст. преподаватель  |  |  | С.А. Федосов
+   └ r3 h=8.6pt · c2 bd=bottom:0.5pt · c3 bd=bottom:0.5pt · c4 bd=bottom:0.5pt · c5 bd=bottom:0.5pt
+  r4 |  | (должность) | (подпись) | (дата) | (инициалы, фамилия)
+   └ r4 h=8.6pt · c2 &a9 · c3 &a9 · c4 &a9 · c5 &a9
+  r5 | Студенты | 3-ИАИТ-119 |  |  | П.М. Марченко
+   └ r5 h=22.7pt · c1 va=bottom · c2 &a8 · c3 &a8 · c4 &a8 · c5 bd=bottom:0.125pt;va=center
+  r6 |  | (группа) | (подпись) | (дата) | (инициалы, фамилия)
+   └ r6 h=11.35pt · c2 &a9;mar=0pt/-/0pt/- · c3 &a9;mar=0pt/-/0pt/- · c4 &a9 · c5 &a9
+  r7 |  | 3-ИАИТ-119 |  |  | И.Д. Царегородцев
+   └ r7 h=22.7pt · c1 va=bottom · c2 &a8 · c3 &a8 · c4 &a8 · c5 bd=bottom:0.125pt;va=center
+  r8 |  | (группа) | (подпись) | (дата) | (инициалы, фамилия)
+   └ r8 h=11.35pt · c2 &a9;mar=0pt/-/0pt/- · c3 &a9;mar=0pt/-/0pt/- · c4 &a9 · c5 &a9
+@range [17–19] after=0pt;line=1x;tabs=left@361.5pt:underscore,left@439.45pt:underscore
+[17 #61914ECC]
+ └ mark eastAsia="Times New Roman";hAnsi="Times New Roman CYR";lang=ru;latin="Times New Roman CYR";size=12pt;sizeCs=10pt
+[18 #1E88DF66]
+ └ mark eastAsia="Times New Roman";hAnsi="Times New Roman CYR";lang=ru;latin="Times New Roman CYR";size=12pt;sizeCs=10pt
+[19 #03EF0621]
+ └ mark eastAsia="Times New Roman";hAnsi="Times New Roman CYR";lang=ru;latin="Times New Roman CYR";size=12pt;sizeCs=10pt
+[20 #03CACAB4 after=0pt;align=center;line=1x;tabs=left@361.5pt:underscore,left@439.45pt:underscore eastAsia="Times New Roman";hAnsi="Times New Roman CYR";lang=ru;latin="Times New Roman CYR";size=12pt;sizeCs=10pt] Самара 2026 г.(pgbr)
+[21 #0EECBE5E &a7 &14pt] Цель работы: практическое знакомство с использованием функций Win32 API для получения информации о процессах, потоках и используемых ими ресурсах ОС Windows в консольном приложении на языке C++.
+ └ +b "Цель …ты: "
+[22 #55FA7512 &a5 +b;&14pt] Задание.
+[23 #5F26BC54 &a7 &14pt] Общее задание (для всех бригад):
+@range [24–26] &a2 &14pt
+[24 #379A5F9A] 1) вывести на экран список процессов, выполняющихся в системе;
+[25 #6B4A60D6] 2) для выбранного процесса, идентификатор которого вводится с клавиатуры, вывести сведения о его приоритете и количестве потоков;
+[26 #7C78EE4C] 3) для выбранного прикладного процесса, идентификатор которого вводится с клавиатуры, вывести время его работы в режиме ядра и в режиме пользователя.
+[27 #36D52E16 &a7 &14pt] Индивидуальное задание (бригада № 10):
+[28 #3934C50E &a2 &14pt] 1) вывести информацию о загрузке процессора в процентах;
+[29 #3E78BBC0 &a2 &14pt] 2) вывести список имен прикладных процессов, использовавших более M байт оперативной памяти; значение M задается с клавиатуры при запуске программы.
+[30 #0F5B36A8 &a7 &14pt] Результаты сравнить с данными Диспетчера задач.
+[31 #2CE6F132 &a7 &14pt] Работа выполнена в среде Microsoft Visual Studio на языке C++. Создано решение Lab2 из трех консольных приложений: SPO_Lr2 (общее задание), SPO_Lr2_CpuLoad (индивидуальное задание 1) и SPO_Lr2_Memory (индивидуальное задание 2). Использованы только заголовочные файлы и библиотеки, рассмотренные в методических указаниях: windows.h, tlhelp32.h, psapi.h (psapi.lib), pdh.h (pdh.lib), iostream, cstdio, clocale, conio.h.
+[32 #7AC29064 &a5 +b;&14pt] 1. Использованные функции Win32 API.
+[33 #6D5A7AB8 after=4pt;+keepNext &14pt] Таблица 1 – Функции Win32 API, использованные в работе
+[34 table 21×3 cols=155.9pt/155.9pt/155.9pt align=center w=auto borders=top:0.5pt+left:0.5pt+bottom:0.5pt+right:0.5pt+insideH:0.5pt+insideV:0.5pt look=firstRow+firstColumn+noVBand cellr:font="Times New Roman";lang=ru/en/ar;size=12pt c1[w=158.75pt]{after=0pt;line=1x} c2[w=68.05pt]{after=0pt;line=1x} c3[w=240.95pt]{after=0pt;line=1x}]
+  r1 | Функция | Заголовок | Назначение
+   └ r1 +header-row · c1 align=center · c2 align=center · c3 align=center
+  r2 | CreateToolhelp32Snapshot | tlhelp32.h | Создает снимок процессов (TH32CS_SNAPPROCESS) или потоков (TH32CS_SNAPTHREAD) системы
+  r3 | Process32First, Process32Next | tlhelp32.h | Извлекают из снимка сведения о первом и следующем процессе в структуру PROCESSENTRY32
+  r4 | Thread32First, Thread32Next | tlhelp32.h | Извлекают из снимка сведения о потоках в структуру THREADENTRY32
+  r5 | OpenProcess | windows.h | Возвращает дескриптор процесса по его идентификатору
+  r6 | CloseHandle | windows.h | Закрывает дескриптор снимка или процесса
+  r7 | GetPriorityClass | windows.h | Возвращает класс приоритета процесса
+  r8 | GetProcessTimes | windows.h | Возвращает время создания процесса, время работы в режиме ядра и в режиме пользователя (FILETIME)
+  r9 | FileTimeToLocalFileTime | windows.h | Преобразует время UTC в местное время
+  r10 | FileTimeToSystemTime | windows.h | Преобразует FILETIME в структуру SYSTEMTIME
+  r11 | ProcessIdToSessionId | windows.h | Возвращает номер сеанса, в котором выполняется процесс (сеанс 0 — службы и системные процессы)
+  r12 | GetProcessMemoryInfo | psapi.h | Возвращает сведения об использовании памяти процессом (PROCESS_MEMORY_COUNTERS)
+  r13 | PdhOpenQuery | pdh.h | Создает запрос для сбора данных счетчиков производительности
+  r14 | PdhMakeCounterPath | pdh.h | Формирует путь к счетчику из элементов (PDH_COUNTER_PATH_ELEMENTS)
+  r15 | PdhAddEnglishCounter | pdh.h | Добавляет счетчик в запрос по английскому имени (независимо от языка Windows)
+  r16 | PdhCollectQueryData | pdh.h | Выполняет замер значений счетчиков запроса
+  r17 | PdhGetFormattedCounterValue | pdh.h | Возвращает значение счетчика в заданном формате (PDH_FMT_DOUBLE)
+  r18 | PdhRemoveCounter, PdhCloseQuery | pdh.h | Удаляют счетчик и закрывают запрос
+  r19 | Sleep | windows.h | Приостанавливает выполнение потока на заданное время
+  r20 | GetLocalTime | windows.h | Возвращает текущие местные дату и время
+  r21 | GetLastError | windows.h | Возвращает код ошибки последней функции
+[35 #032915AE after=0pt]
+[36 #6411D388 &a5 +b;&14pt] 2. Общее задание 1. Список процессов.
+[37 #3C5847D8 &a7 &14pt] Алгоритм (функция PrintProcessList):
+@range [38–41] &a2 &14pt
+[38 #3B3F9386] 1) создать снимок процессов: CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
+[39 #3E13750C] 2) присвоить полю dwSize структуры PROCESSENTRY32 размер структуры;
+[40 #4B455C7C] 3) получить первый процесс функцией Process32First, затем в цикле получать следующие функцией Process32Next, пока она не вернет FALSE;
+[41 #4FD2A6D2] 4) для каждого процесса вывести PID (th32ProcessID), PID родителя (th32ParentProcessID), количество потоков (cntThreads), базовый приоритет (pcPriClassBase) и имя (szExeFile);
+[42 #2FBFF1AE &a2;+keepNext &14pt] 5) закрыть дескриптор снимка и вывести общее количество процессов.
+[43 #609FEA6E &a6] (img1)
+ └ img1 12.50cmx10.97cm media/image6.png
+[44 #0444AF2C after=12pt;align=center &14pt] Рисунок 1 – Окончание списка процессов (программа SPO_Lr2)
+[45 #15CF3F98 &a7 &14pt] Комментарий. Программа вывела 326 процессов (на рисунке 1 – окончание списка). Список содержит как системные процессы и службы (svchost.exe, WmiPrvSE.exe), так и прикладные (chrome.exe, powershell.exe). По полю PPID видно дерево процессов: например, conhost.exe и powershell.exe запущены процессом cmd.exe. Количество процессов при повторных запусках немного меняется, так как процессы постоянно создаются и завершаются.
+[46 #094C847A &a5 +b;&14pt] 3. Общее задание 2. Приоритет и количество потоков процесса.
+[47 #4F2A5B24 &a7 &14pt] Алгоритм (функции FindProcess и PrintPriorityAndThreads):
+@range [48–51] &a2 &14pt
+[48 #4FCE0986] 1) ввести PID процесса с клавиатуры;
+[49 #397F733A] 2) найти процесс в снимке процессов, перебирая его функциями Process32First / Process32Next;
+[50 #07DCE7B0] 3) вывести базовый приоритет (pcPriClassBase) и количество потоков (cntThreads);
+[51 #044EE36A] 4) открыть процесс функцией OpenProcess и получить класс приоритета функцией GetPriorityClass;
+[52 #02B5F8A4 &a2;+keepNext &14pt] 5) создать снимок потоков (TH32CS_SNAPTHREAD), перебрать его функциями Thread32First / Thread32Next и вывести потоки, у которых th32OwnerProcessID равен PID, с их приоритетами (tpBasePri).
+[53 #7A64B3D2 &a6] (img1)
+ └ img1 12.50cmx10.97cm media/image7.png
+[54 #13E23916 after=12pt;align=center &14pt] Рисунок 2 – Приоритет, потоки и время работы процесса Spotify.exe
+[55 #379B19DE &a7 &14pt] Комментарий. Для процесса Spotify.exe (PID 26736) получены базовый приоритет 8 и класс NORMAL, количество потоков – 30 (рисунок 2). Те же значения выдает команда PowerShell Get-Process (BasePriority = 8, PriorityClass = Normal, 30 потоков). Приоритеты отдельных потоков (4, 8, 9) отличаются от базового приоритета процесса, так как приложение задает своим потокам относительный приоритет.
+[56 #35992584 &a5 +b;&14pt] 4. Общее задание 3. Время работы процесса в режимах ядра и пользователя.
+[57 #599FAEC4 &a7 &14pt] Алгоритм (функция PrintProcessTimes):
+@range [58–62] &a2 &14pt
+[58 #3296243C] 1) ввести PID прикладного процесса с клавиатуры;
+[59 #3541F6EC] 2) получить дескриптор процесса функцией OpenProcess с правом PROCESS_QUERY_LIMITED_INFORMATION;
+[60 #2BF48A00] 3) вызвать GetProcessTimes и получить время создания, завершения, работы в режиме ядра и в режиме пользователя в структурах FILETIME;
+[61 #66A60BEC] 4) время создания перевести в местное время функциями FileTimeToLocalFileTime и FileTimeToSystemTime;
+[62 #07D444C4] 5) длительности перевести из 100-наносекундных интервалов в миллисекунды и вывести в формате чч:мм:сс.мс.
+[63 #717DCB94 &a7 &14pt] Комментарий. Для Spotify.exe получены время в режиме ядра 00:06:09.750 и в режиме пользователя 00:32:45.843 (рисунок 2); Get-Process показывает 00:06:09.75 и 00:32:45.84 – значения совпадают. Время работы в режиме пользователя больше, так как основную работу приложение выполняет в своем коде, а не в системных вызовах.
+[64 #7963BFC2 &a7;+keepNext &14pt] Для системных процессов функция OpenProcess завершается с ошибкой 5 (доступ запрещен), поэтому задание выполняется для прикладных процессов. Программа сообщает об этом (рисунок 3).
+[65 #493FC8A2 &a6] (img1)
+ └ img1 12.50cmx10.97cm media/image8.png
+[66 #752F7F54 after=12pt;align=center &14pt] Рисунок 3 – Попытка получить время работы системного процесса (PID 4)
+[67 #305DB536 &a5 +b;&14pt] 5. Индивидуальное задание 1. Загрузка процессора в процентах.
+[68 #6C04CB38 &a7 &14pt] Алгоритм (программа SPO_Lr2_CpuLoad):
+@range [69–73] &a2 &14pt
+[69 #2FC08F26] 1) создать запрос функцией PdhOpenQuery;
+[70 #6D1B8CC0] 2) сформировать функцией PdhMakeCounterPath пути к счетчикам \\Processor(_Total)\\% Processor Time и \\Processor Information(_Total)\\% Processor Utility и добавить их в запрос функцией PdhAddEnglishCounter;
+[71 #01F6208A] 3) выполнить первый (базовый) замер функцией PdhCollectQueryData;
+[72 #696FAC72] 4) 20 раз с интервалом 1 с (Sleep(1000)) выполнять замер и получать значения счетчиков функцией PdhGetFormattedCounterValue в формате PDH_FMT_DOUBLE, выводить их с текущим временем;
+[73 #45ADB60C] 5) удалить счетчики и закрыть запрос.
+[74 #4E66068E &a7;+keepNext &14pt] Функция PdhAddEnglishCounter использована вместо PdhAddCounter из примера методических указаний: PdhAddCounter требует имена счетчиков на языке системы (в русской Windows – «Процессор», «% загруженности процессора»), а PdhAddEnglishCounter принимает английские имена при любом языке Windows. Обе функции входят в библиотеку PDH.
+[75 #3A68EB30 &a6] (img1)
+ └ img1 15.50cmx8.58cm media/image9.png
+[76 #5A4BABD6 after=12pt;align=center;+keepNext &14pt] Рисунок 4 – Загрузка процессора (программа SPO_Lr2_CpuLoad)
+[77 #54B5E59E &a6] (img1)
+ └ img1 14.00cmx7.53cm media/image10.png
+[78 #0F5DE430 after=12pt;align=center &14pt] Рисунок 5 – Загрузка процессора в Диспетчере задач во время работы программы
+[79 #601F90CA &a7 &14pt] Комментарий. За 20 замеров (рисунок 4) загрузка процессора составила от 5,5 до 36,0 % по счетчику % Processor Time и от 6,3 до 44,0 % по счетчику % Processor Utility; основную часть времени – 10–16 %. Снимок Диспетчера задач (рисунок 5) сделан во время работы программы, около 21:44:21; он показывает загрузку ЦП 14 %, а программа в 21:44:19 и 21:44:20 вывела 14,8 и 15,5 %. Значения совпадают с точностью до колебаний нагрузки между моментами замеров. Диспетчер задач в Windows 10/11 использует счетчик % Processor Utility, учитывающий текущую частоту процессора; классический счетчик % Processor Time дает близкие значения.
+[80 #72A38D30 &a5 +b;&14pt] 6. Индивидуальное задание 2. Прикладные процессы, использующие более M байт оперативной памяти.
+[81 #6316DACE &a7 &14pt] Алгоритм (программа SPO_Lr2_Memory):
+@range [82–86] &a2 &14pt
+[82 #2CAD2584] 1) ввести значение M (байт) с клавиатуры при запуске программы;
+[83 #2842C4CC] 2) создать снимок процессов и перебрать его функциями Process32First / Process32Next;
+[84 #683B4DD6] 3) пропустить процессы сеанса 0 (функция ProcessIdToSessionId) – это службы и системные процессы; остальные процессы считаются прикладными;
+[85 #62446390] 4) открыть процесс функцией OpenProcess и получить сведения о памяти функцией GetProcessMemoryInfo;
+[86 #0E0B01BE] 5) если объем рабочего набора (WorkingSetSize – объем оперативной памяти, занятой процессом) больше M, сохранить процесс в массив;
+[87 #73CC72A8 &a2;+keepNext &14pt] 6) отсортировать массив по убыванию памяти (сортировка выбором) и вывести PID, имя и объем памяти в байтах и мегабайтах.
+[88 #4B117374 &a6] (img1)
+ └ img1 14.00cmx8.87cm media/image11.png
+[89 #0B9BD706 after=12pt;align=center;+keepNext &14pt] Рисунок 6 – Прикладные процессы, использующие более 200 000 000 байт (программа SPO_Lr2_Memory)
+[90 #3FAAEA1E &a6] (img1)
+ └ img1 14.00cmx7.53cm media/image12.png
+[91 #3C7A62A8 after=12pt;align=center &14pt] Рисунок 7 – Использование памяти приложениями в Диспетчере задач
+[92 #0DAC2472 &a7 &14pt] Комментарий. При M = 200 000 000 байт найдено 20 процессов из 169 прикладных (рисунок 6); наибольший объем памяти используют Telegram.exe (800,0 МБ) и Spotify.exe (775,1 МБ). Результат совпадает с командой PowerShell Get-Process (свойство WorkingSet64). В Диспетчере задач (рисунок 7) на вкладке «Процессы» значения меньше: например, Telegram Desktop – 645,4 МБ. Это объясняется тем, что Диспетчер задач по умолчанию показывает активный частный рабочий набор (без страниц разделяемых библиотек) и суммирует память всех процессов приложения, а программа выводит полный рабочий набор каждого процесса. Совпадающие значения дает столбец «Рабочий набор (память)» на вкладке «Подробности».
+[93 #3F428020 &a5 +b;&14pt] 7. Тексты программ.
+[94 #14D1228C after=4pt;+keepNext &14pt] Листинг 1 – Общее задание (файл SPO_Lr2.cpp)
+@range [95–97] &a &Consol
+[95 #1292F3AE] // Лабораторная работа № 2. Монитор процессов и потоков.
+[96 #4C193B4A] // Базовые задания: список процессов, приоритет и количество потоков процесса,
+[97 #5421AA5E] // время работы процесса в режиме ядра и в режиме пользователя.
+[98 #2E797DDC &a]
+@range [99–105] &a &Consol
+[99 #334F5A32] #include <windows.h>
+[100 #07DF5586] #include <tlhelp32.h>
+[101 #4098BFC4] #include <iostream>
+[102 #6EC17944] #include <cstdio>
+[103 #52269712] #include <conio.h>
+[104 #6ACBF44A] #include <clocale>
+[105 #5B921C8A] using namespace std;
+[106 #2EC0930E &a]
+@range [107–112] &a &Consol
+[107 #3BF59CDE] // Ожидание нажатия клавиши перед завершением программы
+[108 #031DCCF0] void WaitKey()
+[109 #15644D50] {
+[110 #560431C0]     wprintf_s(L"Нажмите любую клавишу для выхода...");
+[111 #21C7FEC2]     _getch();
+[112 #24D38868] }
+[113 #784026CA &a]
+@range [114–127] &a &Consol
+[114 #51F3EE1E] // Ввод идентификатора процесса с клавиатуры
+[115 #3D8F1ED4] DWORD ReadPid(const wchar_t* prompt)
+[116 #55E6C474] {
+[117 #5C7BE3DE]     DWORD pid;
+[118 #21919B7A]     while (true)
+[119 #0088DCFC]     {
+[120 #490C641A]         wprintf_s(L"%s", prompt);
+[121 #60658D2A]         if (cin >> pid)
+[122 #518B4612]             return pid;
+[123 #33D7CC9C]         wprintf_s(L"Ошибка ввода, повторите\\n");
+[124 #2A5C3780]         cin.clear();
+[125 #4547F1F4]         cin.ignore(10000, '\\n');
+[126 #78DF569E]     }
+[127 #6CF3D3B4] }
+[128 #7A1EE146 &a]
+@range [129–137] &a &Consol
+[129 #118B1C94] // Задание 1. Вывод списка процессов, выполняющихся в системе
+[130 #3956E216] void PrintProcessList()
+[131 #49A62E1C] {
+[132 #51D18602]     HANDLE hSnap = CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
+[133 #5E6F3C04]     if (hSnap == INVALID_HANDLE_VALUE)
+[134 #23A78A46]     {
+[135 #29B5011C]         wprintf_s(L"Ошибка CreateToolhelp32Snapshot, код %lu\\n", GetLastError());
+[136 #03AD5276]         return;
+[137 #1B0E7C00]     }
+[138 #01A6BF54 &a]
+@range [139–141] &a &Consol
+[139 #2B7B747E]     PROCESSENTRY32 pe;
+[140 #0A2DE40E]     pe.dwSize = sizeof(PROCESSENTRY32);
+[141 #37D60F2A]     int count = 0;
+[142 #5525A56A &a]
+@range [143–154] &a &Consol
+[143 #19F66B64]     wprintf_s(L"%8s %8s %7s %10s  %s\\n",
+[144 #0860B7C0]         L"PID", L"PPID", L"Потоков", L"Приоритет", L"Имя процесса");
+[145 #742CF39A]     if (Process32First(hSnap, &pe))
+[146 #2A996D9C]     {
+[147 #0F923350]         do
+[148 #21B0DCD8]         {
+[149 #6A430F5E]             wprintf_s(L"%8lu %8lu %7lu %10ld  %s\\n", pe.th32ProcessID, pe.th32ParentProcessID,
+[150 #07753CAA]                 pe.cntThreads, pe.pcPriClassBase, pe.szExeFile);
+[151 #3BB175E0]             count++;
+[152 #27B644E6]         } while (Process32Next(hSnap, &pe));
+[153 #084BB982]     }
+[154 #5A47B4E0]     CloseHandle(hSnap);
+[155 #08EF88AC &a]
+[156 #2D0AD0DA &a &Consol]     wprintf_s(L"Всего процессов: %d\\n", count);
+[157 #67B449AE &a &Consol] }
+[158 #1A15C8D8 &a]
+@range [159–164] &a &Consol
+[159 #4FF1C7F2] // Поиск процесса в снимке по идентификатору
+[160 #4E6FEADA] bool FindProcess(DWORD pid, PROCESSENTRY32& pe)
+[161 #0C3F0752] {
+[162 #7B521D6E]     HANDLE hSnap = CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
+[163 #5F9DFEF2]     if (hSnap == INVALID_HANDLE_VALUE)
+[164 #5C237B08]         return false;
+[165 #3F0F87B6 &a]
+@range [166–181] &a &Consol
+[166 #6C0AF508]     bool found = false;
+[167 #56CFE6EC]     pe.dwSize = sizeof(PROCESSENTRY32);
+[168 #59D88414]     if (Process32First(hSnap, &pe))
+[169 #0AEAC76A]     {
+[170 #3AFDFF16]         do
+[171 #73F0FC82]         {
+[172 #28B09832]             if (pe.th32ProcessID == pid)
+[173 #1A561AAE]             {
+[174 #74B45CE8]                 found = true;
+[175 #54B90176]                 break;
+[176 #651CB9AE]             }
+[177 #3C892402]         } while (Process32Next(hSnap, &pe));
+[178 #1F5303F2]     }
+[179 #25FAC62C]     CloseHandle(hSnap);
+[180 #0A51250A]     return found;
+[181 #37E06FE4] }
+[182 #4C3EC7C2 &a]
+@range [183–196] &a &Consol
+[183 #7803308A] // Название класса приоритета процесса
+[184 #34544DD4] const wchar_t* PriorityClassName(DWORD priorityClass)
+[185 #47AE78B4] {
+[186 #61EE1544]     switch (priorityClass)
+[187 #4165C71A]     {
+[188 #2CFD9CAE]     case IDLE_PRIORITY_CLASS:         return L"IDLE (низкий)";
+[189 #67D32D36]     case BELOW_NORMAL_PRIORITY_CLASS: return L"BELOW_NORMAL (ниже среднего)";
+[190 #485B722A]     case NORMAL_PRIORITY_CLASS:       return L"NORMAL (обычный)";
+[191 #6CFAED20]     case ABOVE_NORMAL_PRIORITY_CLASS: return L"ABOVE_NORMAL (выше среднего)";
+[192 #41187D54]     case HIGH_PRIORITY_CLASS:         return L"HIGH (высокий)";
+[193 #58719884]     case REALTIME_PRIORITY_CLASS:     return L"REALTIME (реального времени)";
+[194 #2E63DECE]     default:                          return L"неизвестен";
+[195 #47CA36B2]     }
+[196 #4713E746] }
+[197 #10479FDA &a]
+@range [198–206] &a &Consol
+[198 #184ADBD6] // Задание 2. Приоритет и количество потоков выбранного процесса
+[199 #0C1937D2] void PrintPriorityAndThreads(DWORD pid)
+[200 #01946658] {
+[201 #08495A42]     PROCESSENTRY32 pe;
+[202 #76F6F546]     if (!FindProcess(pid, pe))
+[203 #6908C80C]     {
+[204 #4664F708]         wprintf_s(L"Процесс с PID %lu не найден\\n", pid);
+[205 #0EC05AB4]         return;
+[206 #299B0E10]     }
+[207 #22BE1EB0 &a]
+[208 #0B486C40 &a &Consol]     wprintf_s(L"\\nПроцесс: %s (PID %lu)\\n", pe.szExeFile, pid);
+[209 #521932CC &a &Consol]     wprintf_s(L"Базовый приоритет:  %ld\\n", pe.pcPriClassBase);
+[210 #746A8504 &a]
+@range [211–217] &a &Consol
+[211 #3399BFB8]     HANDLE hProc = OpenProcess(PROCESS_QUERY_LIMITED_INFORMATION, FALSE, pid);
+[212 #571AE9AC]     if (hProc != NULL)
+[213 #013F83E2]     {
+[214 #549B4C50]         wprintf_s(L"Класс приоритета:   %s\\n", PriorityClassName(GetPriorityClass(hProc)));
+[215 #5164BC6E]         CloseHandle(hProc);
+[216 #591172C0]     }
+[217 #24500EAA]     wprintf_s(L"Количество потоков: %lu\\n", pe.cntThreads);
+[218 #125D9B0A &a]
+@range [219–222] &a &Consol
+[219 #0A5871F6]     // Список потоков процесса с их приоритетами
+[220 #75A3D506]     HANDLE hSnap = CreateToolhelp32Snapshot(TH32CS_SNAPTHREAD, 0);
+[221 #1E76535C]     if (hSnap == INVALID_HANDLE_VALUE)
+[222 #48AC7940]         return;
+[223 #38A71388 &a]
+@range [224–243] &a &Consol
+[224 #4D8EEB42]     THREADENTRY32 te;
+[225 #54F078A0]     te.dwSize = sizeof(THREADENTRY32);
+[226 #390902A8]     int n = 0;
+[227 #14396A98]     wprintf_s(L"\\nПотоки процесса (ID потока: приоритет):\\n");
+[228 #0E01670A]     if (Thread32First(hSnap, &te))
+[229 #7C1E877E]     {
+[230 #5D80EDC0]         do
+[231 #6A3AE3F2]         {
+[232 #0E372CBE]             if (te.th32OwnerProcessID == pid)
+[233 #17740888]             {
+[234 #517E9B6C]                 wprintf_s(L"%8lu: %-4ld", te.th32ThreadID, te.tpBasePri);
+[235 #65E1C0A8]                 if (++n % 6 == 0)
+[236 #6E9F5A18]                     wprintf_s(L"\\n");
+[237 #27B61AAA]             }
+[238 #2F163288]         } while (Thread32Next(hSnap, &te));
+[239 #1DAB0256]     }
+[240 #29627ABE]     CloseHandle(hSnap);
+[241 #258112EE]     if (n % 6 != 0)
+[242 #6BF929D2]         wprintf_s(L"\\n");
+[243 #4A5CA078] }
+[244 #1A4441D8 &a]
+@range [245–252] &a &Consol
+[245 #46F37AFC] // Перевод времени FILETIME (интервалы по 100 нс) в миллисекунды
+[246 #35837E26] ULONGLONG FileTimeToMs(const FILETIME& ft)
+[247 #4C9A3020] {
+[248 #6C26FF3C]     ULARGE_INTEGER t;
+[249 #0BC7F0CE]     t.LowPart = ft.dwLowDateTime;
+[250 #460555AC]     t.HighPart = ft.dwHighDateTime;
+[251 #788459DC]     return t.QuadPart / 10000;
+[252 #3DD45372] }
+[253 #554E43A6 &a]
+@range [254–260] &a &Consol
+[254 #7FD591B0] // Вывод длительности в формате чч:мм:сс.мс
+[255 #07BB59F4] void PrintDuration(const wchar_t* title, const FILETIME& ft)
+[256 #7B836F2C] {
+[257 #3B138C6E]     ULONGLONG ms = FileTimeToMs(ft);
+[258 #6947E7A0]     wprintf_s(L"%s %02llu:%02llu:%02llu.%03llu (%.3f с)\\n", title,
+[259 #54731B6A]         ms / 3600000, ms / 60000 % 60, ms / 1000 % 60, ms % 1000, ms / 1000.0);
+[260 #0C42F666] }
+[261 #49504BC0 &a]
+@range [262–275] &a &Consol
+[262 #3669484A] // Задание 3. Время работы процесса в режиме ядра и в режиме пользователя
+[263 #5A48A79A] void PrintProcessTimes(DWORD pid)
+[264 #4A3A5362] {
+[265 #62309E86]     HANDLE hProc = OpenProcess(PROCESS_QUERY_LIMITED_INFORMATION, FALSE, pid);
+[266 #6BA366A2]     if (hProc == NULL)
+[267 #42EF826C]     {
+[268 #2C1A5E56]         DWORD err = GetLastError();
+[269 #3BCF9B80]         wprintf_s(L"Не удалось открыть процесс %lu, код ошибки %lu\\n", pid, err);
+[270 #2E56158A]         if (err == ERROR_ACCESS_DENIED)
+[271 #3D6FBF2E]             wprintf_s(L"Доступ запрещен: это системный процесс, выберите прикладной\\n");
+[272 #74B8C7EC]         else if (err == ERROR_INVALID_PARAMETER)
+[273 #4D15478C]             wprintf_s(L"Процесс с таким PID не существует\\n");
+[274 #7BC827AA]         return;
+[275 #077E5E66]     }
+[276 #21296E6C &a]
+@range [277–284] &a &Consol
+[277 #7342F9D2]     FILETIME ftCreation, ftExit, ftKernel, ftUser;
+[278 #5B67ADE2]     if (!GetProcessTimes(hProc, &ftCreation, &ftExit, &ftKernel, &ftUser))
+[279 #2F8867D8]     {
+[280 #54650898]         wprintf_s(L"Ошибка GetProcessTimes, код %lu\\n", GetLastError());
+[281 #4418AF1E]         CloseHandle(hProc);
+[282 #1E084680]         return;
+[283 #52F492B4]     }
+[284 #3FC01B42]     CloseHandle(hProc);
+[285 #6E78E3C2 &a]
+@range [286–290] &a &Consol
+[286 #32BF44EE]     // Время запуска: UTC -> местное время -> SYSTEMTIME
+[287 #105C3142]     FILETIME ftLocal;
+[288 #1E704B02]     SYSTEMTIME st;
+[289 #002A9FCE]     FileTimeToLocalFileTime(&ftCreation, &ftLocal);
+[290 #420852C6]     FileTimeToSystemTime(&ftLocal, &st);
+[291 #2BCE3B86 &a]
+@range [292–296] &a &Consol
+[292 #34D2BCDE]     wprintf_s(L"\\nВремя запуска процесса:        %02u.%02u.%04u %02u:%02u:%02u\\n",
+[293 #5574F17E]         st.wDay, st.wMonth, st.wYear, st.wHour, st.wMinute, st.wSecond);
+[294 #697356D4]     PrintDuration(L"Время в режиме ядра:          ", ftKernel);
+[295 #50CBB7A6]     PrintDuration(L"Время в режиме пользователя:  ", ftUser);
+[296 #3D82108E] }
+[297 #77CDB6F8 &a]
+@range [298–300] &a &Consol
+[298 #50928C1A] int main()
+[299 #5B25E634] {
+[300 #4F9D1C6E]     setlocale(LC_CTYPE, "rus");
+[301 #473E45F2 &a]
+[302 #7816C35E &a &Consol]     wprintf_s(L"=== Задание 1. Список процессов ===\\n\\n");
+[303 #67FF6A8A &a &Consol]     PrintProcessList();
+[304 #40A41836 &a]
+[305 #6D95678C &a &Consol]     wprintf_s(L"\\n=== Задание 2. Приоритет и количество потоков процесса ===\\n");
+[306 #1BFEA752 &a &Consol]     PrintPriorityAndThreads(ReadPid(L"Введите PID процесса: "));
+[307 #41A29EB0 &a]
+[308 #3B742332 &a &Consol]     wprintf_s(L"\\n=== Задание 3. Время работы процесса в режимах ядра и пользователя ===\\n");
+[309 #4A4F51A8 &a &Consol]     PrintProcessTimes(ReadPid(L"Введите PID прикладного процесса: "));
+[310 #770FDA64 &a]
+@range [311–314] &a &Consol
+[311 #1165B966]     wprintf_s(L"\\n");
+[312 #6730C22C]     WaitKey();
+[313 #5E4A1C9C]     return 0;
+[314 #65F89B04] }
+[315 #13E54294 after=0pt]
+[316 #2AC62CD2 after=4pt;+keepNext &14pt] Листинг 2 – Индивидуальное задание 1 (файл SPO_Lr2_CpuLoad.cpp)
+[317 #4505A6D2 &a &Consol] // Лабораторная работа № 2. Монитор процессов и потоков.
+[318 #54975ADE &a &Consol] // Индивидуальное задание 1 (вариант 10): загрузка процессора в процентах.
+[319 #150AE4E8 &a]
+@range [320–325] &a &Consol
+[320 #7F33E0EA] #include <windows.h>
+[321 #055E462A] #include <pdh.h>
+[322 #3EBA59D2] #include <conio.h>
+[323 #3BC32AE0] #include <cstdio>
+[324 #739860B8] #include <clocale>
+[325 #28A95ED4] #pragma comment(lib, "pdh.lib")
+[326 #1D03DED2 &a]
+[327 #5E84336A &a &Consol] const int COUNT = 20;   // количество замеров (с интервалом 1 с)
+[328 #51633D78 &a]
+@range [329–341] &a &Consol
+[329 #4B2F17EA] // Добавление счетчика в запрос. Путь формируется функцией PdhMakeCounterPath
+[330 #7F39B916] // из английских имен объекта, экземпляра и счетчика; PdhAddEnglishCounter
+[331 #1E057B42] // принимает английские имена независимо от языка Windows.
+[332 #6202F6A8] bool AddCounter(PDH_HQUERY hQuery, const wchar_t* object, const wchar_t* instance,
+[333 #1382FAF0]     const wchar_t* counter, PDH_HCOUNTER* hCounter)
+[334 #3B4FDE94] {
+[335 #50E7B034]     PDH_COUNTER_PATH_ELEMENTS cpe = {};
+[336 #0476695E]     cpe.szMachineName = NULL;
+[337 #556C92D4]     cpe.szObjectName = const_cast<wchar_t*>(object);
+[338 #17B03488]     cpe.szInstanceName = const_cast<wchar_t*>(instance);
+[339 #489378C4]     cpe.szParentInstance = NULL;
+[340 #6C35821A]     cpe.dwInstanceIndex = 0;
+[341 #4E938DB2]     cpe.szCounterName = const_cast<wchar_t*>(counter);
+[342 #0A855E52 &a]
+@range [343–354] &a &Consol
+[343 #4E1B8FE6]     wchar_t path[PDH_MAX_COUNTER_PATH];
+[344 #457B39EC]     DWORD size = PDH_MAX_COUNTER_PATH;
+[345 #33A65C88]     PDH_STATUS status = PdhMakeCounterPath(&cpe, path, &size, 0);
+[346 #1C618AEE]     if (status == ERROR_SUCCESS)
+[347 #47C717A8]         status = PdhAddEnglishCounter(hQuery, path, 0, hCounter);
+[348 #37023B70]     if (status != ERROR_SUCCESS)
+[349 #323A32B4]     {
+[350 #6881876C]         wprintf_s(L"Не удалось добавить счетчик %s, код 0x%08lX\\n", path, status);
+[351 #02F9709E]         return false;
+[352 #55B09D60]     }
+[353 #1F9AD832]     return true;
+[354 #289FA9F6] }
+[355 #4FA78610 &a]
+@range [356–361] &a &Consol
+[356 #0FA360F4] // Ожидание нажатия клавиши перед завершением программы
+[357 #760E36C0] void WaitKey()
+[358 #1FEA3D24] {
+[359 #2BFD50C4]     wprintf_s(L"Нажмите любую клавишу для выхода...");
+[360 #2CD89BA0]     _getch();
+[361 #0BEE6B12] }
+[362 #78839C44 &a]
+@range [363–365] &a &Consol
+[363 #4471177A] int main()
+[364 #28E19E92] {
+[365 #3CC2A478]     setlocale(LC_CTYPE, "rus");
+[366 #79AFB862 &a]
+[367 #79BEBD06 &a &Consol]     PDH_HQUERY hQuery;
+[368 #5335C94E &a &Consol]     PDH_HCOUNTER hProcessorTime, hProcessorUtility;
+[369 #4D328980 &a]
+@range [370–375] &a &Consol
+[370 #1028D4AE]     if (PdhOpenQuery(NULL, 0, &hQuery) != ERROR_SUCCESS)
+[371 #260F71A2]     {
+[372 #5F2ECE7C]         wprintf_s(L"Ошибка PdhOpenQuery\\n");
+[373 #3A0BAA72]         WaitKey();
+[374 #53DD713C]         return 1;
+[375 #49202F84]     }
+[376 #1104E496 &a]
+@range [377–388] &a &Consol
+[377 #2BB8957C]     // \\Processor(_Total)\\% Processor Time — загруженность процессора (все ядра)
+[378 #2E6004B0]     // \\Processor Information(_Total)\\% Processor Utility — значение, которое
+[379 #6CFF1B4E]     // показывает Диспетчер задач (учитывает текущую частоту процессора)
+[380 #4F4F1C80]     if (!AddCounter(hQuery, L"Processor", L"_Total",
+[381 #745535F6]             L"% Processor Time", &hProcessorTime) ||
+[382 #36446F70]         !AddCounter(hQuery, L"Processor Information", L"_Total",
+[383 #78219452]             L"% Processor Utility", &hProcessorUtility))
+[384 #4C78D3D8]     {
+[385 #59C2A082]         PdhCloseQuery(hQuery);
+[386 #706417BC]         WaitKey();
+[387 #52DC401C]         return 1;
+[388 #2DACA32C]     }
+[389 #3BEB0CF2 &a]
+[390 #7A09C220 &a &Consol]     // Первый замер — базовый: значение счетчика вычисляется по двум замерам
+[391 #2B2D5210 &a &Consol]     PdhCollectQueryData(hQuery);
+[392 #7AA94BC4 &a]
+[393 #12262954 &a &Consol]     wprintf_s(L"Загрузка процессора: %d замеров с интервалом 1 с\\n\\n", COUNT);
+[394 #2028DC6E &a &Consol]     wprintf_s(L"%-10s %18s %20s\\n", L"Время", L"% Processor Time", L"% Processor Utility");
+[395 #024F9E50 &a]
+@range [396–399] &a &Consol
+[396 #23914278]     for (int i = 0; i < COUNT; i++)
+[397 #785EDCA4]     {
+[398 #4558346A]         Sleep(1000);
+[399 #3067FF3C]         PdhCollectQueryData(hQuery);
+[400 #526E2B6C &a]
+@range [401–407] &a &Consol
+[401 #4ADB47B8]         PDH_FMT_COUNTERVALUE time = {}, utility = {};
+[402 #3F766FFE]         PDH_STATUS s1 = PdhGetFormattedCounterValue(hProcessorTime,
+[403 #5E75BF38]             PDH_FMT_DOUBLE, NULL, &time);
+[404 #3C2D0B9A]         PDH_STATUS s2 = PdhGetFormattedCounterValue(hProcessorUtility,
+[405 #040A8082]             PDH_FMT_DOUBLE, NULL, &utility);
+[406 #6826112C]         if (s1 != ERROR_SUCCESS || s2 != ERROR_SUCCESS)
+[407 #19776858]             continue;
+[408 #7DC47C36 &a]
+@range [409–411] &a &Consol
+[409 #5893B1FE]         // Utility может превышать 100% при турбо-частоте,
+[410 #7D059B8C]         // Диспетчер задач ограничивает его значением 100%
+[411 #7EAB66A6]         double util = utility.doubleValue > 100.0 ? 100.0 : utility.doubleValue;
+[412 #6810D32C &a]
+@range [413–420] &a &Consol
+[413 #78C1BD94]         SYSTEMTIME st;
+[414 #0EED3268]         GetLocalTime(&st);
+[415 #18C7FC50]         wprintf_s(L"%02u:%02u:%02u   %16.1f %% %18.1f %%\\n",
+[416 #15CBB956]             st.wHour, st.wMinute, st.wSecond, time.doubleValue, util);
+[417 #2E85C448]     }
+[418 #60B23F4E]     PdhRemoveCounter(hProcessorTime);
+[419 #392C9FB8]     PdhRemoveCounter(hProcessorUtility);
+[420 #69D65DA8]     PdhCloseQuery(hQuery);
+[421 #79F5DE02 &a]
+@range [422–425] &a &Consol
+[422 #7ADC8186]     wprintf_s(L"\\n");
+[423 #2DCF3DC6]     WaitKey();
+[424 #11C9071E]     return 0;
+[425 #494D30F6] }
+[426 #52CBA08E after=0pt]
+[427 #04B022F8 after=4pt;+keepNext &14pt] Листинг 3 – Индивидуальное задание 2 (файл SPO_Lr2_Memory.cpp)
+@range [428–430] &a &Consol
+[428 #7C17039A] // Лабораторная работа № 2. Монитор процессов и потоков.
+[429 #2C423F26] // Индивидуальное задание 2 (вариант 10): список прикладных процессов,
+[430 #6FEF62D6] // использующих более M байт оперативной памяти.
+[431 #6F80015C &a]
+@range [432–440] &a &Consol
+[432 #30C80A6E] #include <windows.h>
+[433 #2E74AECC] #include <tlhelp32.h>
+[434 #71BF8C5C] #include <psapi.h>
+[435 #7F9B7D2A] #include <iostream>
+[436 #4B438996] #include <cstdio>
+[437 #2BC1C25C] #include <clocale>
+[438 #22C7E660] #include <conio.h>
+[439 #55B814BA] #pragma comment(lib, "psapi.lib")
+[440 #7A617B60] using namespace std;
+[441 #6E225DFE &a]
+@range [442–446] &a &Consol
+[442 #21A117C0] struct ProcInfo
+[443 #30727950] {
+[444 #0B4DC518]     PROCESSENTRY32 pe;      // сведения о процессе из снимка
+[445 #0C720B78]     SIZE_T workingSet;      // объем используемой оперативной памяти (рабочий набор), байт
+[446 #5F62B93E] };
+[447 #31E3921E &a]
+[448 #73C64212 &a &Consol] const int MAX_PROC = 1024;
+[449 #5748ABC0 &a &Consol] ProcInfo procList[MAX_PROC];    // процессы, удовлетворяющие условию отбора
+[450 #66CB7ECA &a]
+@range [451–456] &a &Consol
+[451 #6494717C] // Ожидание нажатия клавиши перед завершением программы
+[452 #7001842E] void WaitKey()
+[453 #0F516E2C] {
+[454 #784CB966]     wprintf_s(L"Нажмите любую клавишу для выхода...");
+[455 #669B7C34]     _getch();
+[456 #27470860] }
+[457 #28B4B6F4 &a]
+@range [458–460] &a &Consol
+[458 #5D403EAC] int main()
+[459 #6A49912E] {
+[460 #4935FD00]     setlocale(LC_CTYPE, "rus");
+[461 #789E3E26 &a]
+@range [462–469] &a &Consol
+[462 #2A811070]     unsigned long long M;
+[463 #0AE01926]     wprintf_s(L"Введите M (байт): ");
+[464 #2E549CF8]     if (!(cin >> M))
+[465 #656A9C36]     {
+[466 #3C739348]         wprintf_s(L"Ошибка ввода M\\n");
+[467 #23E56ED0]         WaitKey();
+[468 #0F5E08D2]         return 1;
+[469 #5CCA168A]     }
+[470 #458BF962 &a]
+@range [471–477] &a &Consol
+[471 #1A604708]     HANDLE hSnap = CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
+[472 #096CD9B0]     if (hSnap == INVALID_HANDLE_VALUE)
+[473 #2DA813DA]     {
+[474 #7C791C0E]         wprintf_s(L"Ошибка CreateToolhelp32Snapshot, код %lu\\n", GetLastError());
+[475 #7C3DC9EE]         WaitKey();
+[476 #0E4BDA64]         return 1;
+[477 #4A0EC7C0]     }
+[478 #27BE0654 &a]
+[479 #03F52AE8 &a &Consol]     int count = 0;              // количество отобранных процессов
+[480 #306F229A &a &Consol]     int appCount = 0;           // количество просмотренных прикладных процессов
+[481 #5536FF54 &a]
+@range [482–492] &a &Consol
+[482 #5C96F1B2]     PROCESSENTRY32 pe;
+[483 #4F66FDE6]     pe.dwSize = sizeof(PROCESSENTRY32);
+[484 #4ADF95B6]     if (Process32First(hSnap, &pe))
+[485 #44289422]     {
+[486 #7F654E0E]         do
+[487 #4E16B77C]         {
+[488 #23E71850]             // Службы и системные процессы выполняются в сеансе 0,
+[489 #2F400264]             // прикладные процессы пользователя — в сеансах 1, 2, ...
+[490 #4B2BE1B6]             DWORD session;
+[491 #6C9A8330]             if (!ProcessIdToSessionId(pe.th32ProcessID, &session) || session == 0)
+[492 #0D5F6C9C]                 continue;
+[493 #31930654 &a]
+@range [494–497] &a &Consol
+[494 #000B55CC]             HANDLE hProc = OpenProcess(PROCESS_QUERY_LIMITED_INFORMATION, FALSE,
+[495 #787D3ACE]                 pe.th32ProcessID);
+[496 #1E9DA7C4]             if (hProc == NULL)
+[497 #60055312]                 continue;
+[498 #5D66AB4C &a]
+@range [499–513] &a &Consol
+[499 #56574F9E]             PROCESS_MEMORY_COUNTERS pmc;
+[500 #72503C40]             if (GetProcessMemoryInfo(hProc, &pmc, sizeof(pmc)))
+[501 #4E3FC3DC]             {
+[502 #711075A4]                 appCount++;
+[503 #4C84FE6E]                 if (pmc.WorkingSetSize > M && count < MAX_PROC)
+[504 #62B972B4]                 {
+[505 #22BDDEE2]                     procList[count].pe = pe;
+[506 #2DEFF63A]                     procList[count].workingSet = pmc.WorkingSetSize;
+[507 #796AD3F0]                     count++;
+[508 #4086F8AA]                 }
+[509 #0E15B4C0]             }
+[510 #608398DE]             CloseHandle(hProc);
+[511 #7289C7E8]         } while (Process32Next(hSnap, &pe));
+[512 #66EAEDF0]     }
+[513 #647B8028]     CloseHandle(hSnap);
+[514 #49C0A0FC &a]
+@range [515–530] &a &Consol
+[515 #479A5518]     // Сортировка выбором по убыванию используемой памяти
+[516 #15610908]     for (int i = 0; i < count - 1; i++)
+[517 #065B909E]     {
+[518 #29CFCA48]         int maxIndex = i;
+[519 #778F663E]         for (int j = i + 1; j < count; j++)
+[520 #7491F78A]         {
+[521 #7B48BFA8]             if (procList[j].workingSet > procList[maxIndex].workingSet)
+[522 #5E8D9EA0]                 maxIndex = j;
+[523 #40588D84]         }
+[524 #53005192]         if (maxIndex != i)
+[525 #3D0129D0]         {
+[526 #30998420]             ProcInfo tmp = procList[i];
+[527 #4A0F5766]             procList[i] = procList[maxIndex];
+[528 #0C165AB2]             procList[maxIndex] = tmp;
+[529 #6DF41148]         }
+[530 #7EA942F8]     }
+[531 #00E5E062 &a]
+@range [532–541] &a &Consol
+[532 #713BDE1C]     wprintf_s(L"\\nПрикладные процессы, использующие более %llu байт (%.1f МБ) "
+[533 #4C70D524]         L"оперативной памяти:\\n\\n", M, M / 1048576.0);
+[534 #2334A9D4]     wprintf_s(L"%8s  %-32s %16s %10s\\n", L"PID", L"Имя процесса", L"Память, байт", L"МБ");
+[535 #45FFE4A8]     for (int i = 0; i < count; i++)
+[536 #04B25B44]     {
+[537 #6EF98670]         wprintf_s(L"%8lu  %-32s %16zu %10.1f\\n",
+[538 #5A0341E6]             procList[i].pe.th32ProcessID, procList[i].pe.szExeFile,
+[539 #07B19192]             procList[i].workingSet, procList[i].workingSet / 1048576.0);
+[540 #3A3DFA9C]     }
+[541 #5344FCC8]     wprintf_s(L"\\nНайдено процессов: %d (из %d прикладных)\\n\\n", count, appCount);
+[542 #283D7BD8 &a]
+@range [543–545] &a &Consol
+[543 #36296AC2]     WaitKey();
+[544 #5AAC8BEE]     return 0;
+[545 #34118E0C] }
+[546 #3220DEEA after=0pt]
+[547 #497C77E4 &a7 &14pt] Вывод: в ходе работы с помощью функций Tool Help Library (CreateToolhelp32Snapshot, Process32First/Next, Thread32First/Next) получен список процессов системы, сведения о приоритете и потоках выбранного процесса; функцией GetProcessTimes определено время работы процесса в режимах ядра и пользователя; с помощью счетчиков производительности PDH измерена загрузка процессора; функцией GetProcessMemoryInfo из библиотеки PSAPI определен объем оперативной памяти, используемой прикладными процессами. Результаты совпадают с данными Диспетчера задач и PowerShell с учетом различий в определении показателей. Для части системных процессов функция OpenProcess возвращает ошибку «доступ запрещен», поэтому сведения о времени и памяти получены для прикладных процессов.
+ └ +b "Вывод: "
+@sec [0-548] 595.3ptx841.9pt margin=56.7pt/42.5pt/56.7pt/85.05pt cols=1 +titlePg hdr:first=header1.xml ftr:default=footer1.xml
+@part word/footer1.xml
+  [footer1.xml:0 #4167987D @Footer align=center] (f1)
+   └ f1 PAGE   \\* MERGEFORMAT → "5" cached
+@part word/header1.xml
+  [header1.xml:0 empty]
+@skip present but not rendered (named for totality; check --raw if layout puzzles): abstractNum@restartNumberingAfterBreak, adjustRightInd=off, autoSpaceDE=off, autoSpaceDN=off, docPartGallery, docPartObj, docPartUnique, fldChar@fldCharType, kern, latentStyles, ligatures, lvl@ilvl, lvl@tentative, lvl@tplc, noProof, numFmt, overflowPunct=off, pgMar@footer, pgMar@gutter, pgMar@header, rsid, style@customStyle
